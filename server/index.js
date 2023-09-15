@@ -7,7 +7,6 @@ const { connectToDB } = require("./db.js");
 // вызов функции
 connectToDB();
 // импорт модуля http
-
 const http = require("http");
 // устанавливаем значение для переменной
 const hostname = "127.0.0.1";
