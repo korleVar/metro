@@ -1,16 +1,16 @@
 // импорт express при помощи функции require
 const express = require("express");
 
-
-
 // экземпляр
 const app = express();
+
 // импорт функции из файла
 const { connectToDB } = require("./db.js");
+
 // вызов функции
 connectToDB();
-// импорт модуля http
 
+// импорт модуля http
 const http = require("http");
 
 // устанавливаем значение для переменной
