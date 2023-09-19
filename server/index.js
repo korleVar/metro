@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 // импорт функции из файла
-const { connectToDB } = require("./db.js");
+const { connectToDB } = require("./db");
 
 // вызов функции
 connectToDB();
